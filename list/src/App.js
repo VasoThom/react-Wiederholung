@@ -3,7 +3,7 @@ import { useState } from "react";
 import TodoList from "./components/TodoList";
 
 function App() {
-  const [list, setList] = useState([]);
+  const [list, setList] = useState("todo 1");
   return (
     <div className="App">
       <header className="App-header">
